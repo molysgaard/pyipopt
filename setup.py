@@ -68,7 +68,6 @@ setup(
         author_email="molysgaard@gmail.com",
         url="https://github.com/molysgaard/pyipopt",
         packages=['pyipopt'],
-        package_dir={'pyipopt' : 'pyipopt'},
         ext_package='pyipopt',
         ext_modules=[pyipopt_extension],
         )
